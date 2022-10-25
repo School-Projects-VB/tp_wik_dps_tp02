@@ -10,8 +10,7 @@ start:
 	docker container start --attach -i tp02-container  
 
 test:
+	# to execute in bash : curl -X GET http://127.0.0.1:8000/ping
 	docker exec -it tp02-container /bin/sh
-
-# to execute in bash : curl -X GET http://127.0.0.1:8000/ping
 
 .PHONY : clean build start test
