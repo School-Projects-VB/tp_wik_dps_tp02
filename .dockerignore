@@ -1,1 +1,11 @@
+# Extensions
 *.md
+
+# Folders
+git/
+build/
+node_modules/
+
+# Files
+.gitignore
+Makefile
