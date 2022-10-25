@@ -2,7 +2,7 @@ clean:
 	docker container prune -f
 	docker image prune -f
 
-build:
+build: clean
 	docker build -t tp02:latest .
 
 start:
