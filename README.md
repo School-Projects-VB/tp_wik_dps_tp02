@@ -1,6 +1,8 @@
 # TP_WIK_DPS_TP02
 🐋 Docker exercise
 
+
+
 ## Linux & MacOS
 
 Build the docker image and create the docker container
@@ -15,7 +17,13 @@ Start the docker container
 make start
 ```
 
-Test app
+Test image
+
+```bash
+make trivy
+```
+
+Run app
 
 ```bash
 make test
@@ -23,9 +31,6 @@ make test
 
 Execute `curl -X GET http://127.0.0.1:8000/ping`
 
-```bash
-make trivy
-```
 
 ## Windows
 
