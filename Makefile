@@ -16,4 +16,4 @@ run:
 trivy:
 	trivy image tp02
 
-.PHONY : clean build start test trivy
+.PHONY : clean build start run trivy
