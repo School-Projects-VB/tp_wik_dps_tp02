@@ -29,7 +29,10 @@ Run app
 make test
 ```
 
-Execute `curl -X GET http://127.0.0.1:8000/ping`
+### To test app
+
+Execute `curl -X GET http://127.0.0.1:8000/ping` in shell opened
+
 
 
 ## Windows
@@ -52,10 +55,17 @@ Start the docker container
 docker start --attach -i container_name
 ```
 
-Test app
+Test image
 
 ```bash
-docker exec -it container_name sh
+trivy image image_name
 ```
 
-Execute `curl -X GET http://127.0.0.1:8000/ping`
+Run app
+
+```bash
+docker exec -it tp02-container sh
+```
+
+### To test app
+Execute `curl -X GET http://127.0.0.1:8000/ping` in shell opened
