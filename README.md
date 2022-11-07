@@ -1,5 +1,5 @@
 # TP_WIK_DPS_TP02
-API by TypeScript
+🐋 Docker exercise
 
 ## Linux & MacOS
 
