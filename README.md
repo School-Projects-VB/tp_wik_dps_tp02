@@ -26,7 +26,7 @@ make trivy
 Run app
 
 ```bash
-make test
+make run
 ```
 
 ### To test app
