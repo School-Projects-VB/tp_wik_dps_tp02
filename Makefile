@@ -13,4 +13,7 @@ test:
 	# to execute in bash : curl -X GET http://127.0.0.1:8000/ping
 	docker exec -it tp02-container /bin/sh
 
-.PHONY : clean build start test
+trivy:
+	trivy image tp02
+
+.PHONY : clean build start test trivy

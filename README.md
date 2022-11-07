@@ -22,6 +22,10 @@ make test
 
 Execute `curl -X GET http://127.0.0.1:8000/ping`
 
+```bash
+make trivy
+```
+
 ## Windows
 
 Build the docker image
